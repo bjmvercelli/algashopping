@@ -14,7 +14,7 @@ function App () {
 
   const dispatch = useDispatch();
 
-  const products = useSelector(state => state.products);
+  // const products = useSelector(state => state.products);
   const selectedProducts = useSelector(state => state.products.filter(product => product.checked));
   const totalPrice = useSelector(state =>  state.products
     .filter(product => product.checked)
