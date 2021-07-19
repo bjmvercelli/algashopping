@@ -5,6 +5,6 @@ export default function(state = 0, action) { /*PS: Aqui setamos o  valor do stat
         case 'SUBTRACT':
             return action.payload[0] - action.payload[1];
         default:
-            return state; //retorna o estado atual (sem modificação)
+            return state; 
     }
 }
